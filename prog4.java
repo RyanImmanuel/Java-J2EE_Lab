@@ -38,7 +38,7 @@ public class Market implements ActionListener {
 	Market()
 	{
 		JFrame f1		= new JFrame("CUSTOMER INFORMATION");
-		String uname	= JOptionPane.showInputDialog(null,"Enter USERNAME");
+		String uname	        = JOptionPane.showInputDialog(null,"Enter USERNAME");
 		String psw		= JOptionPane.showInputDialog(null,"Enter PASSWORD");
 		add_coll();
 		add_item();
