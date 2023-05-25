@@ -23,8 +23,7 @@ public class Main{
             Long num=sc.nextLong();
             System.out.print("enter the name: ");
             String name=sc.next();
-            Contacthm.put(num,name);
-            
+            Contacthm.put(num,name); 
         }
         System.out.println("hm: ");
         System.out.println(Contacthm);
@@ -39,9 +38,7 @@ public class Main{
             else{
                 Contact missed=new Contact(num,"Private Number");
                 mc.add(missed);
-            }
-            
-            
+            }  
         }
         for(Contact c:mc){
             System.out.println(c.number+" "+c.name);
